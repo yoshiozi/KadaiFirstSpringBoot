@@ -23,7 +23,7 @@ public class KadaiFirstController {
 
             //曜日の取得と指定文字への置換
             int dayOfWeek= cl.get(Calendar.DAY_OF_WEEK);
-            String[] weekDays = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" } ;
+            String[] weekDays = {"","Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" } ;
 
             //曜日の出力
             return "実行結果:" + weekDays[dayOfWeek];
